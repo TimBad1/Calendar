@@ -1,0 +1,11 @@
+.button {
+    padding: 11px 16px 11px 20px;
+    border: 1px solid rgba(38, 40, 66, 0.12);
+    border-radius: 10px;
+    font: inherit;
+    background-color: #fff;
+    display: flex;
+}
+.button svg {
+    margin-right: 12px;
+}
