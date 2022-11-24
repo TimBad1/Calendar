@@ -33,7 +33,7 @@ module.exports = {
         use:['ts-loader']
       },
       {
-        test:/\.css$/,
+        test: /\.css$/i,
         use:[
           {
             loader: 'css-loader',

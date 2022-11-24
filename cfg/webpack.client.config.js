@@ -39,7 +39,7 @@ module.exports= {
         use:['ts-loader']
       },
       {
-        test:/\.css$/,
+        test: /\.css$/i,
         use:[
           'style-loader',
           {
@@ -49,7 +49,7 @@ module.exports= {
                 mode: 'local',
                 localIdentName: '[name]_[local]--[hash:base64:5]',
               }
-            }
+            },
           },
         ],
         exclude: GLOBAL_CSS_REGEXP,

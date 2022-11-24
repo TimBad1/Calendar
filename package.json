@@ -1,5 +1,5 @@
 {
-  "name": "reddit",
+  "name": "calendar",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -24,7 +24,7 @@
     "classnames": "^2.2.6",
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.6.0",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^4.5.2",
     "jest": "^28.1.3",
@@ -39,8 +39,10 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
     "sass-resources-loader": "^2.2.4",
-    "style-loader": "^1.1.3",
+    "style-loader": "^1.3.0",
     "ts-jest": "^28.0.7",
     "ts-loader": "^6.2.1",
     "typescript": "4.6.4",
@@ -51,9 +53,9 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "scripts": {
-    "build:dev": "cross-env NODE_ENV=development webpack CLIENT_ID=7hz1jdLab3Oqt003Es5BDw CLIENT_SECRET=RDaVaRG9ljub36UydSrEK1PIc1Qfxw --config webpack.config.js",
-    "build:prod": "cross-env NODE_ENV=production webpack CLIENT_ID=7hz1jdLab3Oqt003Es5BDw CLIENT_SECRET=RDaVaRG9ljub36UydSrEK1PIc1Qfxw --config webpack.config.js",
-    "dev": "cross-env NODE_ENV=development CLIENT_ID=7hz1jdLab3Oqt003Es5BDw CLIENT_SECRET=RDaVaRG9ljub36UydSrEK1PIc1Qfxw node ./bin/dev.js",
+    "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
+    "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development node ./bin/dev.js",
     "test": "jest"
   },
   "author": "",
