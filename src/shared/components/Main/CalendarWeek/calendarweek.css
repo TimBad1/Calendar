@@ -1,0 +1,5 @@
+.cell {
+    min-width: 22px;
+    min-height: 24px;
+    border-color: rgba(38, 40, 66, 0.12);
+}

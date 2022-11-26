@@ -1,21 +1,14 @@
-.wrapper {
-    display: flex;
-}
-
 .left {
     min-width: 390px;
-}
-
-.heading {
-    background-color: #F7F8FC;
-    border: 1px solid rgba(38, 40, 66, 0.12);
-}
-
-.left .heading {
     padding: 14px 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     color: #6D6E85;
     border-top-left-radius: 10px;
+}
+
+.heading {
+    background-color: #F7F8FC;
+    border: 1px solid rgba(38, 40, 66, 0.12);
 }
